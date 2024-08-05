@@ -1,4 +1,5 @@
 <?php
+
 include './php/functions.php';
 // Se importan las funciones
 if (validar()== false){// Se valida si exite una transaccion pendiente
