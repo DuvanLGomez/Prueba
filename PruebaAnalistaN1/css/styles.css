@@ -1,0 +1,25 @@
+.center  {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+body {
+  background-color: #cccccc78 !important;
+}
+
+
+#navbar {
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+}
+
+#navbar img {
+  display: block;
+  margin: 0 auto;
+}

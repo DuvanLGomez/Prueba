@@ -1,0 +1,43 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Evertec Place to pay</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="https://static.placetopay.com/placetopay-logo.svg" width="250" height="70">
+        </div>
+
+    <div class='center'>
+        <!-- Formulario inicial para realizar la solicitud e iniciar proceso -->
+        <form action='./php/procesar.php' method='post'>
+        <div class="form-group">
+                <label>Referencia:</label>
+                <input type='text' name='reference' class="form-control" required>
+        </div>
+        <div class="form-group">
+                <label>Descripcion:</label>
+                <input type='text' name='description' class="form-control" required>
+        </div>
+        <div class="form-group">
+                <label>Moneda</label>
+                <select class="custom-select" name='currency'>
+                  <option value="USD">Dolar</option>
+                  <option value="COP" selected>Peso Colombiano</option>
+                  <option value="MXN">Peso Mexicano</option>
+                </select>
+        </div>
+        
+        <div class="form-group">
+                <label>Total:</label>
+                <input type='number' name='total'  class="form-control" required>
+        </div>     
+        <div class="form-group">
+                <button class='btn btn-success'>iniciar proceso</button>
+        </div>
+        </form>
+    </div>
+    </body>
+</html>
