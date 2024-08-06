@@ -17,7 +17,7 @@ if (!empty($_SESSION['requestId'])){ header('Location: ./estado.html');}
     </head>
     <body>
         <div id="navbar">
-            <img src="https://static.placetopay.com/placetopay-logo.svg" width="250" height="70">
+            <img src="https://www.ajedrez21.com/img/logo-1704566330.jpg" width="250" height="70">
         </div>
 
     <div class='center'>

@@ -3,7 +3,7 @@ date_default_timezone_set('America/Bogota');
 // Zona Horaria
 
 // Datos para el JSON
-$returnUrl = 'https://tienda.comfama.com/deporte-y-recreacion';
+$returnUrl = 'https://www.ajedrez21.com/es/59-libros?order=product.date_add.desc';
 
 $login='2d9eaf1e662518756a3d78806543af5b';
 
